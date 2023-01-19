@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @LinDen
 - 👀 I’m interested in astronomy, motorsport and cinematography
 - 🌱 I’m currently studying IT, focusing on FrontEnd
-- 💞️ I’m looking to collaborate on small web projects wtih JavaScript, CSS and htmml
+- 💞️ I’m looking to collaborate on small web projects wtih JavaScript, CSS and HTML
 - 📫 How to reach me LinDen#8352
 
 <!---
