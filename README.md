@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @LinDen
+- 👋 Hi, I’m @ClipLee
 - 👀 I’m interested in astronomy, motorsport and cinematography
 - 🌱 I’m currently studying IT, focusing on FrontEnd
 - 💞️ I’m looking to collaborate on small web projects wtih JavaScript, CSS and HTML
