@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @ClipLee
+- 👋 Hi, I’m @LinDen
 - 👀 I’m interested in astronomy, motorsport and cinematography
 - 🌱 I’m currently studying IT, aspiring to be a FullStack developer
 - 💞️ I’m open to collaborate on various web, backend, frontend projects
-- 📫 How to reach me LinDen#8352
+
 
 <!---
 ClipLee/ClipLee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
