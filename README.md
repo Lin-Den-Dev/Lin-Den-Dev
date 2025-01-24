@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @LinDen
-- 👀 I’m interested in astronomy, motorsport and cinematography
-- 🌱 I’m currently studying IT, aspiring to be a FullStack developer
-- 💞️ I’m open to collaborate on various web, backend, frontend projects
+- 👀 I’m interested in astronomy, motorsport, sationery and cinematography
+- 🌱 I’m IT developer experienced in planty areas, aspiring to be a FullStack developer
+- 💞️ I’m open to collaborate on various web, backend and data projects
 
 
 <!---
