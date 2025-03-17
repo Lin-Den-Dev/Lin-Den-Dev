@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @LinDen
-- 👀 I’m interested in astronomy, motorsport, sationery and cinematography
-- 🌱 I’m IT developer experienced in planty areas, with focus towards Data Engineering
+- 👋 Hi, I’m @Lin-Den-Dev
+- 👀 I’m interested in data engineering, machine learning, sationery and cinematography
+- 🌱 I’m IT developer experienced in planty of areas, with focus towards Data Engineering
 - 💞️ I’m open to collaborate on various web, backend and data projects
 
 
