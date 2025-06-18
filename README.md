@@ -30,16 +30,6 @@
 
 ---
 
-## 🛠️ Skills
-
-| Backend / Data         | DevOps & Infra            | Other / Web             |
-|------------------------|---------------------------|-------------------------|
-| Python • FastAPI       | Docker • GitHub Actions   | JavaScript • HTML/CSS   |
-| PL/SQL • PostgreSQL    | Airflow • Prefect         | React • EJS             |
-| Pandas • NumPy         | CI/CD pipelines           | Bash • Shell scripts    |
-
----
-
 ## 🚀 Featured Projects
 
 | Repository                              | Description                                                   |
@@ -49,7 +39,19 @@
 | [SUML_GR1_TMWT](https://github.com/Lin-Den-Dev/SUML_GR1_TMWT)   | Projekt uczelniany w Pythonie: analiza i wizualizacja danych bioinformatycznych. |
 | [mc-labirynth-v2](https://github.com/Lin-Den-Dev/mc-labirynth-v2) | Prosta gra przeglądarkowa w JS: generowanie labiryntu i sterowanie postacią.  |
 
+
 ---
+
+## 📜 Certifications
+
+### SQL Essentials – MySQL for Data Analytics and Business Intelligence
+[![Udemy Certificate](https://img.shields.io/badge/Udemy-%20SQL%20Essentials-blue?logo=udemy)](https://www.udemy.com/certificate/UC-9a0f11a1-f832-4280-ace0-e3a0918f228f/)
+
+> Certyfikat dostępny online:  
+> 🔗 https://www.udemy.com/certificate/UC-9a0f11a1-f832-4280-ace0-e3a0918f228f/
+
+---
+
 
 ## 📫 Get In Touch
 - ✉️  k.lipski777@gmail.com  
