@@ -55,7 +55,7 @@
 
 ## 📫 Get In Touch
 - ✉️  k.lipski777@gmail.com  
-- 🔗  [LinkedIn](https://www.linkedin.com/in/krzysztof-lipski/)  
+- 🔗  [LinkedIn](https://www.linkedin.com/in/krzysztof-lipski-in/)  
 - 🌐  [Website](https://lin-den-dev.github.io)  
 
 ---
