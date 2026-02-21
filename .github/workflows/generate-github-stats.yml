@@ -35,11 +35,18 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r .tmp/github-stats/requirements.txt
 
+      - name: Validate stats token
+        run: |
+          if [ -z "${{ secrets.STATS_TOKEN }}" ]; then
+            echo "::error::Missing STATS_TOKEN secret. Add a Personal Access Token in Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+
       - name: Generate SVG files
         working-directory: .tmp/github-stats
         env:
-          ACCESS_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_ACTOR: Lin-Den-Dev
           EXCLUDE_FORKED_REPOS: "true"
         run: python generate_images.py
 
