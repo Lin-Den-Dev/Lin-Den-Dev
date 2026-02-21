@@ -2,30 +2,32 @@
 
 <div align="center">
   <a href="https://github.com/Lin-Den-Dev">
-    <img src="https://github-readme-stats.vercel.app/api?username=Lin-Den-Dev&show_icons=true&theme=radical" height="180" alt="GitHub Stats" />
+    <img src="https://raw.githubusercontent.com/Lin-Den-Dev/Lin-Den-Dev/main/generated/overview.svg#gh-dark-mode-only" height="180" alt="GitHub Stats Overview" />
+    <img src="https://raw.githubusercontent.com/Lin-Den-Dev/Lin-Den-Dev/main/generated/overview.svg#gh-light-mode-only" height="180" alt="GitHub Stats Overview" />
   </a>
   <a href="https://github.com/Lin-Den-Dev">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lin-Den-Dev&layout=compact&theme=radical&langs_count=6" height="180" alt="Top Languages" />
+    <img src="https://raw.githubusercontent.com/Lin-Den-Dev/Lin-Den-Dev/main/generated/languages.svg#gh-dark-mode-only" height="180" alt="Top Languages" />
+    <img src="https://raw.githubusercontent.com/Lin-Den-Dev/Lin-Den-Dev/main/generated/languages.svg#gh-light-mode-only" height="180" alt="Top Languages" />
   </a>
 </div>
 
 ---
 
 ## 🌱 About Me
-- 🏢 **Systems Development Specialist** at Polsat Media  
-- 💻 Daily with **Python**, **SQL** & **Provys**  
-- 🚀 Project Lead for ticketing-system implementation  
+- 💼 **Business Analyst / Programmer** focused on data-driven systems  
+- 💻 Daily with **Python**, **SQL** & process automation  
+- 🚀 Experienced in leading ticketing-system implementation projects  
 - 🎓 Passionate about Data Engineering, Machine Learning, stationery and cinematography  
 
 ---
 
 ## 🛠️ Skills
 
-| Backend / Data         | DevOps & Infra            | Other / Web             |
-|------------------------|---------------------------|-------------------------|
-| Python • FastAPI       | Docker • GitHub Actions   | JavaScript • HTML/CSS   |
-| PL/SQL • PostgreSQL    | Airflow • Prefect         | React • EJS             |
-| Pandas • NumPy         | CI/CD pipelines           | Bash • Shell scripts    |
+| Business Analysis                  | Programming / Backend          | Data / Tooling               |
+|------------------------------------|--------------------------------|------------------------------|
+| Requirements analysis • BPMN       | Python • FastAPI               | SQL • PL/SQL • PostgreSQL    |
+| Process mapping • Documentation    | JavaScript • HTML/CSS          | Pandas • NumPy               |
+| Stakeholder communication          | Bash • Shell scripts           | Airflow • Prefect • CI/CD    |
 
 
 ---

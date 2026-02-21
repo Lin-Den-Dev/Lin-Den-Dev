@@ -1,0 +1,58 @@
+name: Generate GitHub Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 0 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/workflows/generate-github-stats.yml
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: jstrieb/github-stats
+          path: .tmp/github-stats
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: .tmp/github-stats/requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r .tmp/github-stats/requirements.txt
+
+      - name: Generate SVG files
+        working-directory: .tmp/github-stats
+        env:
+          ACCESS_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXCLUDE_FORKED_REPOS: "true"
+        run: python generate_images.py
+
+      - name: Copy generated files
+        run: |
+          mkdir -p generated
+          cp .tmp/github-stats/generated/overview.svg generated/overview.svg
+          cp .tmp/github-stats/generated/languages.svg generated/languages.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add generated/overview.svg generated/languages.svg
+          git diff --cached --quiet || git commit -m "chore: update github stats"
+          git push
